@@ -1,0 +1,56 @@
+@import "/src/assets/sass/color.scss";
+
+.item {
+    width: 9.375rem;
+    padding: 0 0.8rem 0.8rem 0.8rem;
+    background-color: $default-color;
+    border-radius: 1.875rem;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    img {
+        margin-top: -3.5rem;
+        height: 130px;
+        object-fit: contain;
+    }
+}
+
+.item-foot_desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    button {
+        background: $default-color;
+        color: $primary-color;
+        border-radius: 50%;
+    }
+}
+
+.item-head_desc {
+    text-align: left;
+    flex: 1;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    p {
+        margin: 0;
+        margin-bottom: 0.75rem;
+    }
+}
+
+.head_desc-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    color: $primary-color;
+    flex: 1;
+}
+.head_desc-info {
+    font-size: 0.8rem;
+    color: #a0a0a0;
+}
+.foot_desc-price {
+    color: $primary-color;
+    font-weight: 700;
+}

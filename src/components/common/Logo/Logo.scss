@@ -1,0 +1,19 @@
+.header-content_logo {
+    min-width: fit-content;
+
+    img {
+        width: 1.5rem;
+        margin-right: 0.4rem;
+    }
+    div {
+        display: flex;
+        align-items: center;
+    }
+    p {
+        font-size: 0.65rem;
+    }
+}
+
+.content-logo img {
+    width: 1.5rem;
+}
